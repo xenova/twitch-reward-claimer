@@ -1,0 +1,20 @@
+{
+ "manifest_version": 2,
+ "name": "Twitch Reward Claimer",
+ "version": "1.0.0",
+ "description": "Automatically claim twitch channel points rewards.",
+ "short_name": "Twitch Reward Claimer",
+ "permissions": ["activeTab", "declarativeContent", "storage", "https://www.twitch.tv/*"],
+ "content_scripts": [
+   {
+     "matches": ["https://www.twitch.tv/*"],
+     "js": ["background.js"]
+   }
+ ],
+ "browser_action": {
+   "default_title": "Twitch Reward Claimer",
+   "default_popup": "popup.html",
+   "default_icon": "icon.png" 
+ },
+ "homepage_url": "https://github.com/xenova/twitch-reward-claimer"
+}
