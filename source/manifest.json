@@ -2,9 +2,9 @@
  "manifest_version": 2,
  "name": "Twitch Reward Claimer",
  "version": "1.0.0",
- "description": "Automatically claim twitch channel points rewards.",
+ "description": "Automatically claim twitch channel point rewards.",
  "short_name": "Twitch Reward Claimer",
- "permissions": ["activeTab", "declarativeContent", "storage", "https://www.twitch.tv/*"],
+ "permissions": ["https://www.twitch.tv/*"],
  "content_scripts": [
    {
      "matches": ["https://www.twitch.tv/*"],
