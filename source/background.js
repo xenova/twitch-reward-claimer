@@ -4,4 +4,4 @@ setInterval(function(){
 		button.click();
 		console.log('Reward claimed');
 	}
-},20000);
+},1000);
